@@ -1,0 +1,57 @@
+Rule of thumb:
+we review every new file before being pushed.
+only 1 person per topic!
+
+BEGINNER-only rules:
+simple grammar and explain tech concepts. dont expect $USER to understand complex subjects.
+
+BEGINNER:
+basic usage items & CLI.
+
+
+TODO:
+
+1- how to gather information.
+
+	!tips (CTRL-F)
+
+	a. Handbook.
+	b. the wiki.
+	c. tealdeer.
+	d. man pages. (searching in less).
+
+2- install .
+	0. install FreeBSD.
+	a. # service enable/start/stop.
+	b. packages: xorg dbus nvidia-driver nvidia-xconfig linux-drm etc.
+	c. setup user interface.
+
+3- basic UNIX commands, paths, and the shell.
+        a. whereis.
+	b. ls, cd, touch, echo, etc.
+	c. [EXTRA] setup shell (zsh, bash, fish).
+	d. shell scripting
+
+4. init and simple tasks.
+	a. changing audio device (sysctl).
+	b. simple init tasks (reboot, shutdown, sleep).
+
+4- most important .conf files.
+	a. wpa_supplicant.conf.
+	b. /etc/rc.conf. # DO NOT EDIT! USE SYSRC
+	c. /etc/sysctl.conf .
+
+5- pkg and ports.
+	a. the difference.
+	b. RECOMMENDED: pkg.
+	c. [EXTRA] ports.
+ 
+
+
+INTERMEDIATE:
+Sys-admins items.
+TODO: Jails, bhyve, bsd sockets, zfs.
+
+
+ADVANCED:
+Kernel hacking, development, and the like.
